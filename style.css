@@ -818,3 +818,8 @@ footer {
         font-size: 2rem;
     }
 }
+
+.download-icon {
+    width: 30px;
+    height: 30px;
+}

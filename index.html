@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Contesini | Desenvolvedor de Sistemas</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -41,9 +39,9 @@
             </p>
             <a href="#contact" class="hero-cta">Entre em Contato</a>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/gabriel-contesini-603588210/" class="social-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="https://github.com/GabrielContesini" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                <a href="https://www.instagram.com/biel_ctm?igsh=MWVyZDFxZW84dDJ5dw==" class="social-link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/gabriel-contesini-603588210/" class="social-link" target="_blank"><img src="img/icons8-linkedin.svg" alt=""></a>
+                <a href="https://github.com/GabrielContesini" class="social-link" target="_blank"><img src="img/icons8-github.svg" alt="github"></a>
+                <a href="https://www.instagram.com/biel_ctm?igsh=MWVyZDFxZW84dDJ5dw==" class="social-link" target="_blank"><img src="img/icons8-instagram-logo.svg" alt=""></a>
             </div>
         </div>
         <div class="hero-image">
@@ -143,18 +141,21 @@
                     <div class="contact-text">São Bernardo do Campo, Brasil</div>
                 </div>
             </div>
-            <form class="contact-form visible">
+            <form action="https://formsubmit.co/gabrielct.moraes@gmail.com" method="POST" class="contact-form visible">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://portfolio-torres-v2.vercel.app/">
+            
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" id="name" class="form-control" required>
+                    <input type="text" id="name" name="name" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" class="form-control" required>
+                    <input type="email" id="email" name="email" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Mensagem</label>
-                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="submit-btn">Enviar</button>
             </form>
@@ -182,9 +183,10 @@
                 <a href="#contact">Contato</a>
             </div>
             <div class="footer-social">
-                <a href="https://www.linkedin.com/in/gabriel-contesini-603588210/" class="social-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="https://github.com/GabrielContesini" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                <a href="https://www.instagram.com/biel_ctm?igsh=MWVyZDFxZW84dDJ5dw==" class="social-link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/gabriel-contesini-603588210/" class="social-link" target="_blank"><img src="img/icons8-linkedin.svg" alt=""></a>
+                <a href="https://github.com/GabrielContesini" class="social-link" target="_blank"><img src="img/icons8-github.svg" alt="github"></a>
+                <a href="https://www.instagram.com/biel_ctm?igsh=MWVyZDFxZW84dDJ5dw==" class="social-link" target="_blank"><img src="img/icons8-instagram-logo.svg" alt=""></a>
+                <a href="/assets/CV_Gabriel_Contesini.pdf" download class="social-link" target="_blank"><img src="img/download-cloud-svgrepo-com.svg" alt="" class="download-icon"></a>
             </div>
             <p class="copyright">© 2025 Gabriel Contesini. Todos os direitos reservados.</p>
         </div>
